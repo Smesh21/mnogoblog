@@ -18,6 +18,6 @@ public class Main {
         //String userInput = scanner.next();
         String userInput = new Scanner(System.in).next();
         System.out.println(userInput);
-        // write your code here
+        // Сделал я сам. Чувствую себя великим хацкером
     }
 }
