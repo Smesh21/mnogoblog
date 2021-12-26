@@ -1,4 +1,4 @@
-package com.company;
+package io.metadevs.vnazarov;
 
 import java.util.Scanner;
 
