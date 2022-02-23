@@ -11,21 +11,21 @@ public class Main {
             } else {
 
             switch (petya){
-                case 1:
+                case 0:
                     if (vasya == 2) {
                         System.out.println("Победил Вася");
                     } else {
                         System.out.println("Победил Петя");
                     }
                     break;
-                case 2:
+                case 1:
                     if (vasya == 3) {
                         System.out.println("Победил Вася");
                     } else {
                         System.out.println("Победил Петя");
                     }
                     break;
-                case 3:
+                case 2:
                     if (vasya == 1) {
                         System.out.println("Победил Вася");
                     } else {
