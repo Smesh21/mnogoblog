@@ -3,22 +3,21 @@ package io.metadevs.vnazarov;
 public class Main {
 
         public static void main(String[] args) {
-            int first = (int) (Math.random() * 2);
-            int second = (int) (Math.random() * 2);
-            int third = (int) (Math.random() * 2);
-            int result = 0;
+            int first = (int) (Math.random() * 10+1);
+            int second = (int) (Math.random() * 10+1);
+            int third = (int) (Math.random() * 10+1);
 
-            if (first == 1) {
+            if (first > 4) {
                 System.out.println("Хорошо");
             } else {
                 System.out.println("Плохо");
             }
-            if (second == 1) {
+            if (second > 4) {
                 System.out.println("Хорошо");
             } else {
                 System.out.println("Плохо");
             }
-            if (third == 1) {
+            if (third == 4) {
                 System.out.println("Хорошо");
             } else {
                 System.out.println("Плохо");
