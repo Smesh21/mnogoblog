@@ -3,9 +3,9 @@ package io.metadevs.vnazarov;
 public class Main {
 
         public static void main(String[] args) {
-            int week = (int) (Math.random() * 4);
+            int season = (int) (Math.random() * 4);
 
-            switch (week) {
+            switch (season) {
                 case 0:
                     System.out.println("Зима");
                     break;
