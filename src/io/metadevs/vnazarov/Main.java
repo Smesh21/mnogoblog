@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Введите число от 1 до 10:");
         int userInput = sc.nextInt();
         sc.close();
-        if (userInput < 10 & userInput > 1) {
+        if (userInput < 11 && userInput > 0) {
             for (int i = 1; i < userInput+1; i++) {
                 System.out.println("Квадрат " + i + " равен " + (i * i));
         }
