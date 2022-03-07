@@ -3,13 +3,13 @@ package io.metadevs.vnazarov;
 public class Main {
 
     public static void main(String[] args) {
-        String[] home = { "папа", "мама", "сын", "дочь" };
+        String[] family = { "папа", "мама", "сын", "дочь" };
 
-        for (String a : home) {
-            System.out.println("Здравствуй, " + a);
+        for (String hello : family) {
+            System.out.println("Здравствуй, " + hello);
         }
-        for (String b : home) {
-            System.out.println("Пока, " + b);
+        for (String bye : family) {
+            System.out.println("Пока, " + bye);
         }
     }
 }
