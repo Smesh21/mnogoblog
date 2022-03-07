@@ -14,14 +14,20 @@ public class Main {
         sc.close();
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) (Math.random() * 10 + 1);
+            System.out.print(array[i]);
+            if (i != (array.length - 1)) {
+                System.out.print(", ");
+            } else {
+                System.out.print(".\t");
+            }
         }
         int numOut = 0;
         for (int n : array) {
             if (n == desiredNumber) {
-                numOut = numOut + 1;
+                numOut++;
             }
         }
-        System.out.println("Число "+desiredNumber +"встречается " +numOut +" Раз(а)");
+        System.out.println("Число "+desiredNumber +" встретилось " +numOut +" Раз(а)");
 
 }
 }
