@@ -1,9 +1,36 @@
 package io.metadevs.vnazarov;
 
-public class Main {
+import java.util.Scanner;
+import java.lang.Math;
+
+class GameGuessNumber {
 
     public static void main(String[] args) {
-        System.out.println("hell yeah");
-	// write your code here
+        int CAP = 10;
+        int NUMTRYINGS = 3;
+        int unknownNumber = (int) Math.floor(Math.random() * CAP);
+        boolean gameIsWon = false;
+        Scanner input = new Scanner(System.in);
+        System.out.println("ЗАДАЧА: Угадать число (от 0 до " +CAP +") за " +NUMTRYINGS +" попыток");
+        for (int i = 0; i < NUMTRYINGS; i++) {
+            System.out.print("Введите ваше число: ");
+            int userNumber = input.nextInt();
+            if (userNumber > unknownNumber) {
+                System.out.println("Моё число меньше.");
+            }
+            else if (userNumber < unknownNumber) {
+                System.out.println("Моё число больше.");
+            }
+            else {
+                gameIsWon = true;
+                break;
+            }
+        }
+        if (gameIsWon) {
+            System.out.println("Игра выиграна");
+        }
+        else {
+            System.out.println("Игра проиграна. Загаданное число " + unknownNumber);
+        }
     }
 }
