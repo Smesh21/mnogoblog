@@ -24,17 +24,17 @@ public class Main {
 
         System.out.println("Double to string: " +aString +" " +bString +" " +cString +" "  +dString);
 
-        Float aFloat = (float) a;
-        Float bFloat = (float) b;
-        Float cFloat = (float) c;
-        Float dFloat = (float) d;
+        float aFloat = (float) a;
+        float bFloat = (float) b;
+        float cFloat = (float) c;
+        float dFloat = (float) d;
 
         System.out.println("Double to float: " +aFloat +" " +bFloat +" " +cFloat +" "  +dFloat);
 
-        double aFtD = (double) aFloat;
-        double bFtd = (double) bFloat;
-        double cFtd = (double) cFloat;
-        double dFtd = (double) dFloat;
+        double aFtD = aFloat;
+        double bFtd = bFloat;
+        double cFtd = cFloat;
+        double dFtd = dFloat;
 
         System.out.println("Float to duble: " +aFtD +" " +bFtd +" " +cFtd +" "  +dFtd);
     }
