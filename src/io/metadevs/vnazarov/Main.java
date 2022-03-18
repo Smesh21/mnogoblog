@@ -7,15 +7,13 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Программа считает гипотинузу треугольника при помощи двух катетов.");
         Scanner sc = new Scanner(System.in);
-        double leg1;
-        double leg2;
         System.out.println("Введите катет 1:");
-        leg1 = sc.nextInt();
+        double side1 = sc.nextInt();
         System.out.println("Введите катет 2:");
-        leg2 = sc.nextInt();
+        double side2 = sc.nextInt();
         sc.close();
-        double hyp = Math.hypot(leg1, leg2);
+        double hyp = Math.hypot(side1, side2);
         System.out.print("Гипотенуза треугольника с катетами ");
-        System.out.println(leg1 +" и " +leg2 +" = " +hyp);
+        System.out.println(side1 +" и " +side2 +" = " +hyp);
     }
 }
