@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Введите число для вычисления тригонометрических функций:");
         Scanner sc = new Scanner(System.in);
-        double userInput = sc.nextInt();
+        double userInput = sc.nextDouble();
         sc.close();
         double sinA, cosA, tanA, asinA, acosA, atanA;
         sinA = Math.sin(userInput);
