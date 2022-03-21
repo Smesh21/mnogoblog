@@ -14,11 +14,10 @@ public class Main {
 
             Stud student2 = new Stud();
             student2.name = "Петя ";
-            student2.mark = mark2;
+//            student2.mark = mark2;
 
             Stud student3 = new Stud();
-            student3.name = "Саша ";
-            student3.mark = mark3;
+
 
             mediumMarks = (double) (student1.mark + student2.mark + student3.mark) / 3;
 
@@ -26,9 +25,5 @@ public class Main {
             System.out.println(student2.name + student2.mark);
             System.out.println(student3.name + student3.mark);
             System.out.println("Средняя оценка:" + mediumMarks);
-    }
-    public static class Stud {
-        String name;
-        int mark;
     }
 }
