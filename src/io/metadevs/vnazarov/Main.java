@@ -4,14 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-            Stud student1 = new Stud();
-            student1.name = "Вася ";
+            Stud student1 = new Stud("Вася ");
 
-            Stud student2 = new Stud();
-            student2.name = "Петя ";
+            Stud student2 = new Stud("Петя ");
 
-            Stud student3 = new Stud();
-            student3.name = "Саша ";
+            Stud student3 = new Stud("Саша ");
 
             double mediumMarks = (double) (student1.mark + student2.mark + student3.mark) / 3;
 
