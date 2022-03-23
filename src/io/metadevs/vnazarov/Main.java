@@ -4,21 +4,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String animal1 = "коза";
-        String animal1name = "Катя";
-        int animal1Age = 3;
-
-        String animal2 = "корова";
-        String animal2Name = "Зорька";
-        int animal2Age = 4;
-
-        String animal3 = "свинка";
-        String animal3Name = "Мотя";
-        int animal3Age = 2;
+        Animal animal1 = new Animal("коза ", "Катя ", 3);
+        Animal animal2 = new Animal("корова ", "Зорька ", 4);
+        Animal animal3 = new Animal("свинка ", "Мотя ", 2);
 
         System.out.println("У бабушки живут:");
-        System.out.println(animal1 +" " +animal1name +" " +animal1Age +" года");
-        System.out.println(animal2 +" " +animal2Name +" " +animal2Age +" года");
-        System.out.println(animal3 +" " +animal3Name +" " +animal3Age +" года");
+        System.out.println(animal1.anim +animal1.name +animal1.age +" года");
+        System.out.println(animal2.anim +animal2.name +animal2.age +" года");
+        System.out.println(animal3.anim +animal3.name +animal3.age +" года");
     }
 }
